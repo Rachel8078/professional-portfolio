@@ -79,7 +79,19 @@ header ul li {
 }
 
 .main-image {
-    width: 560px;
+    width: 600px;
+}
+
+.second-image {
+    width: 400px;
+}
+
+.third-image {
+    width: 400px;
+}
+
+.fourth-image {
+    width: 400px;
 }
 
 .portfolio img {
