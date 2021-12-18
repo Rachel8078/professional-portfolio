@@ -55,26 +55,35 @@ header ul li {
 /* About Me Style Start */
 .about {
     padding-top: 80px;
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 /* Portfolio Section Style Start */
 .portfolio {
     padding-top: 80px;
+    display: flex;
 }
 
-.main-image {
-    border: 3px solid var(--primary-color);
-    width: 100%;
-    position: absolute;
+.portfolio article {
+    flex: 90%;
 }
-.portfolio img {
-    padding: 20px;
+
+.portfolio h2 {
+    flex: 10%;
 }
 
 .images {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex: 90%;
+    padding-top: 70px;
+}
+
+.main-image {
+    width: 560px;
+}
+
+.portfolio img {
+    padding: 20px;
 }
 
 /* Contact Me Style Start */
