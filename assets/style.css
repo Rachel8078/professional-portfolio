@@ -1,8 +1,8 @@
 :root {
-    --primary-color: rgb(211, 211, 219);
-    --secondart-color: rgb(255, 255, 255);
-    --tertiary-color: rgb(120, 142, 148);
-    --background: rgba(15, 15, 17, 1)
+    --primary-color: rgb(8, 8, 8);
+    --secondart-color: rgb(15, 15, 15);
+    --tertiary-color: rgb(14, 15, 15);
+    --background: rgb(230, 238, 240);
 
 }
 
@@ -12,7 +12,7 @@
     color: var(--primary-color)
 }
 
-
+/* Header Style Start */
 header {
     text-align: center;
     color:aliceblue;
@@ -43,6 +43,7 @@ header ul li {
     padding: 20px; 
 }
 
+/* Hero Style Start */
 .hero {
     display: flex;
 
@@ -51,21 +52,32 @@ header ul li {
     width: 200px;
 }
 
+/* About Me Style Start */
 .about {
     padding-top: 80px;
 }
 
+/* Portfolio Section Style Start */
 .portfolio {
     padding-top: 80px;
 }
 
+.main-image {
+    border: 3px solid var(--primary-color);
+    width: 100%;
+    position: absolute;
+}
 .portfolio img {
-    width: 400px;
     padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
 }
 
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Contact Me Style Start */
 .contact {
     padding-top: 80px;
 }
