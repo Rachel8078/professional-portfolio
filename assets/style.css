@@ -50,6 +50,7 @@ header ul li {
 }
 .hero img {
     width: 200px;
+    padding-left: 250px;
 }
 
 /* About Me Style Start */
@@ -57,6 +58,16 @@ header ul li {
     padding-top: 80px;
     font-size: 18px;
     line-height: 1.5;
+    display: flex;
+}
+
+.about h2 {
+    flex: 20%;
+}
+
+.about p {
+    flex: 80%;
+    padding-top: 70px;
 }
 
 /* Portfolio Section Style Start */
@@ -66,11 +77,11 @@ header ul li {
 }
 
 .portfolio article {
-    flex: 90%;
+    flex: 80%;
 }
 
 .portfolio h2 {
-    flex: 10%;
+    flex: 15%;
 }
 
 .images {
@@ -101,12 +112,19 @@ header ul li {
 /* Contact Me Style Start */
 .contact {
     padding-top: 80px;
+    display: flex;
+}
+
+.contact h2 {
+    flex: 10%;
 }
 
 .contact ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    padding-top: 70px;
+    flex: 80%;
 }
 
 .contact ul li {
