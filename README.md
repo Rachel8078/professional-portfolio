@@ -10,7 +10,7 @@ A website to showcase a portfolio of my work to prospective employers.
 ## Website
 https://rachel8078.github.io/professional-portfolio/
 
-![] (./assets/images/portfolio.png)
+![](./assets/images/portfolio.png)
 
 ## Contribution
 Made by Rachel Marriott
