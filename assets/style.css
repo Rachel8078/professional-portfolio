@@ -35,6 +35,7 @@ header ul {
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    font-size: 20px;
 }
 
 header ul li {
@@ -47,7 +48,6 @@ header ul li {
     padding: 50px;
     background-image: url('../assets/images/wander.png');
     background-size: cover;
-    align-items: flex-start;
     background-attachment: fixed;
     background-position: 100%;
 }
@@ -85,6 +85,7 @@ header ul li {
     padding-top: 40px;
     margin-top: 40px;
     display: flex;
+    flex-direction: column;
     background-color: var(--dark);
     color: var(--light);
 }
@@ -146,12 +147,14 @@ header ul li {
     flex-wrap: wrap;
     padding-top: 70px;
     flex: 80%;
+    vertical-align: text-top;
 }
 
 .contact ul li {
     padding: 20px;
     color: var(--dark);
-    font-size: 20px;
+    font-size: 18px;
+
 }
 
 .contact ul a {
@@ -162,3 +165,41 @@ header ul li {
 .contact ul img {
     width: 40px;
 }
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    .contact ul {
+      /* this will be applied on any screen smaller than 980px */
+    flex-direction: column;
+    }
+  }
+  
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 768px) {
+    header h1 a {
+      /* this will be applied on any screen between 768px and 575px */
+     
+    }
+  }
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+      .hero {
+        flex-wrap: wrap;
+      }
+
+    .main-image {
+        width: 90%;
+     }
+    .second-image {
+        width: 70%;
+    }
+
+    .third-image {
+        width: 70%;
+    }
+
+    .fourth-image {
+        width: 70%;
+    }
+  }
